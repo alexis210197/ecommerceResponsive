@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <title>E-commerce Alexis</title>
+</head>
+<body>
+    <main class="conteiner">
+        <div class="conteiner__nav">
+            <div class="conteiner__nav__logo">
+                
+                <img class="logo" src="/img/LOGO PNG.png" alt="logo">
+            </div>
+            <div class="conteiner__nav__menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#var">Varieties</a></li>
+                    <li><a href="#conteiner__store">Store</a></li>
+                    <li><a href="#conteiner__top-sellers">Top sallers</a></li>                    
+                    
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="conteiner__slider">
+            <ul>
+                <li><img src="/img/slider1.png" alt="portada1"></li>
+                <li><img src="/img/slider2.png" alt="portada2"></li>
+                <li><img src="/img/slider3.png" alt="portada3"></li>
+                <li><img src="/img/slider4.png" alt="portada4"></li>
+            </ul>
+        </div>
+        <div class="var" id="var"><h2>Varieties</h2></div>
+        <div class="conteiner__categorias" id="conteiner__categorias">
+            
+            <!-- <a href="#">
+                <img src="/e-commerce/img/verTodo.png" alt="imagen1">
+                <h2>Ver todo</h2>
+            </a> -->
+            <a href="#conteiner__categorias">
+                <img src="/img/categoriaRubia.png" alt="imagen2">
+                <h2>Cerveza rubia</h2
+            </a>
+            <a href="#conteiner__categorias">
+                <img src="/img/categoriaRoja.png" alt="imagen3">
+                <h2>Cerveza roja</h2>
+            </a>
+            <a href="#conteiner__categorias">
+                <img src="/img/categoriaNegra.png" alt="imagen4">
+                <h2>Cerveza negra</h2>
+            </a>
+            <a href="#conteiner__categorias">
+                <img src="/img/categoriaVasos.png" alt="imagen5">
+                <h2>Vasos cerveceros</h2>
+            </a>
+        </div>
+        <div class="conteiner__store" id="conteiner__store">
+            <!-- <div class="conteiner__store__card">
+                <img src="/e-commerce/img/storeRubia1.png" alt="imagenCat1">
+                <h3>descripcion</h3>
+                <p>$precio</p>
+                <button></button>
+            </div>
+            <div class="conteiner__store__card">
+                <img src="/e-commerce/img/storeRubia2.png" alt="imagenCat2">
+                <h3>descripcion</h3>
+                <p>$precio</p>
+                <button></button>
+            </div> -->
+            
+        </div>             
+        </div>
+        <div class="conteiner__top-sellers" id="conteiner__top-sellers">
+            <h2>Top sellers</h2>
+            <ul>
+                <li><img src="/img/storeRubia1.png" alt="sells1"></li>
+                <li><img src="/img/storeRoja1.png" alt="sells2"></li>
+                <li><img src="/img/storeNegra1.png" alt="sells3"></li>
+                <li><img src="/img/storeVasos.png" alt="sells4"></li>
+            </ul>
+        </div>
+        <div class="separador"></div>
+        <div class="nav__shop">
+        <div class="nav__shop-cart">
+            <i class="fa-solid fa-cart-shopping" id="iconCart"></i>
+            <p ><small>Shop</small></p>
+            <p id="productsTotal" class="productsTotal"></p>
+        </div>
+        <div class="nav__shop-sells">
+           <a href="#conteiner__top-sellers"><i class="fa-solid fa-sack-dollar"></i></a>
+            <p><small>Best sellers</small></p>
+        </div>
+        <div class="nav__shop-categories">
+           <a href="#var"><i class="fa-solid fa-bars"></i></a>
+            <p><small> Varieties</small></p>
+        </div>
+        </div>
+        <section class="aside__cart"  id="contentCart">
+            
+            <div class="aside__cart-body">
+                    <!-- <div class="item__cart">
+                        <div class="item__cart-img">
+                            <img src="/e-commerce/img/LOGO PNG.png" alt="">
+                        </div>
+                        <h4 class="item__cart-tittle">Hola</h4>
+                        <div class="item__cart-options">
+                            <i class="fa-solid fa-minus"></i>
+                            <span id="amount">Amount</span>
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </div> -->
+                    <!-- <div class="item__cart">
+                        <div class="item__cart-img">
+                            <img src="/e-commerce/img/LOGO PNG.png" alt="">
+                        </div>
+                        <h4 class="item__cart-tittle">Hola</h4>
+                        <div class="item__cart-options">
+                            <i class="fa-solid fa-minus"></i>
+                            <span id="amount">Amount</span>
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                    </div>    -->
+                <!-- <div class="item__cart">
+                    <div class="item__cart-img">
+                        <img src="/e-commerce/img/LOGO PNG.png" alt="">
+                    </div> -->
+                
+                <div class="item__cart-options">
+                    <h4 class="item__cart-tittle">Welcome to cheers!</h4>
+                    <i class="fa-solid fa-minus"></i>
+                    <span id="amount">Amount</span>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>   
+            </div>
+            <div class="asside__cart-total">
+                <h3>Total: <span id="total"></span> </h3>
+            </div>
+
+
+        </section>
+        
+    </main>
+    
+    <script src="main.js" type="module"></script>
+</body>
+</html>
