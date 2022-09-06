@@ -404,6 +404,9 @@ main{
         width: 40%;
     }
    
+    .aside__cart-body{
+        height: 90%;
+    }
 
    .item__cart{
     width: 30%
